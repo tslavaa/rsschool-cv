@@ -17,3 +17,15 @@ Here is my training projects [mavic](https://tslavaa.github.io/mavic/) / [delive
 I took intensive courses from “glo academy”, “able academy”
 
 My English level is A2 (*English test from EPAM*)
+
+**Javascript code example**
+``` 
+const sum = (...args) => {
+  return args.reduce((a, b) => {
+  	return a + b;
+  });
+}
+
+console.log(sum(1, 2, 3));
+
+console.log(sum(1, 2, 3, 5))
