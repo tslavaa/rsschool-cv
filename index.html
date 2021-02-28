@@ -2,43 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main class="main">
+    <header class="header">
         <div class="container">
-            <div class="main__inner">
-                <h1 class="main__name">Ten Vyacheslav</h1>
-                <div class="main__img">
-                    <img class="image" src="img/avatar.jpg" alt="avatar">
-                </div>
-                <p class="main__text"><em>front-end developer, based in Karaganda, Kazakhstan</em></p>
-                <nav class="nav">
-                    <ul class="nav__menu">
-                        <li class="nav__menu-list"><a class="nav__menu-item" href="slava.ten.99@gmail.com" >email</a></li>
-                        <li class="nav__menu-list"><a class="nav__menu-item" href="tel:87012265356" >87012265356</a></li>
-                        <li class="nav__menu-list"><a class="nav__menu-item" href="https://github.com/tslavaa/" >github</a></li>
-                    </ul>
-                </nav>
-                <div class="main__info">
-                    Studying front-end since august 2020, aiming to become a developer in 2021.
-                    <br>
-                    <strong>Soft skills: sociable, assiduous, purposeful.</strong>
-                    <br>
-                    I have no work experience, but I strive to achieve it, I have a love of learning and high learning ability.
-                    <br>
-                    <strong>Hard skills: HTML, CSS, SCCS, Gulp, basic JS, BEM.</strong> 
-                    <br>
-                    Here is my training projects <a class="nav__menu-item" href="https://tslavaa.github.io/mavic/">mavic</a>  / <a class="nav__menu-item" href="https://tslavaa.github.io/delivery-food/">delivery-food</a>   / <a class="nav__menu-item" href="https://tslavaa.github.io/headphones/">headphones-shop</a> 
-                    <br>
-                    I took intensive courses from “glo academy”, “able academy”
-                    <br>
-                    My English level is A2 (English test from EPAM)
+            <h1 class="header__title">
+                Ten Vyacheslav
+            </h1>
+            <img class="header__avatar" src="images/avatar.jpg" alt="avatar">
+            <p class="header__text">front-end developer, based in Karaganda, Kazakhstan</p>
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">email: slava.ten.99@gmail.com</li>
+                    <li class="header__menu-item">tel: 87012265356</li>
+                    <li class="header__menu-item">github: tslavaa</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="skills">
+            <div class="container">
+                <div class="skills__inner">
+                    <div class="skills__about">
+                        <h2 class="skills__title">About me</h2> 
+                    </div>    
+                    <span class="skills__text">my name is Vyacheslav, I am student of KEU (2017-2021) from Kazakhstan, I live in Karaganda city, I have been doing front-end since August, I strive to become a developer in 2021-2022</span>
+                    <div class="skills__about"><h3 class="skills__title">Soft Skills</h3></div>
+                    <span class="skills__text">sociable, assiduous, purposeful.</span>
+                    <div class="skills__about"><h4 class="skills__title">Experience</h4></div>
+                    <span class="skills__text">have no work experience, but I strive to achieve it, I have a love of learning and high learning ability. I also study English and have an A2 level, I passed the language proficiency test at EPAM. I took intensive courses from “glo academy”, “able academy”</span>
+                    <div class="skills__about"><h5 class="skills__title">Hard Skills</h5></div>
+                    <span class="skills__text">HTML, CSS, SCCS, Gulp, basic JS, BEM.</span>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <h6 class="footer__title">Here you can check my <a class="footer__link" href="https://github.com/tslavaa/">CODE</a> </h6>
+        </div>
+    </footer>
 </body>
 </html>
